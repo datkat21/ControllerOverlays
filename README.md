@@ -31,11 +31,11 @@ There are a couple built-in types and styles to configure, here are some example
 
 ## Examples of Use
 
-- GameCube  
+- GameCube (`gcn`)  
   ![](assets/screenshot_gcn.png)
 
-- Nintendo Switch Pro Controller    
+- Nintendo Switch Pro Controller (`nsp`)    
   ![](assets/screenshot_nsp.png)
 
-- Nintendo 64 Controller (it's a bit janky but it works)
+- Nintendo 64 Controller (`n64`) (it's a bit janky but it works)
   ![](assets/screenshot_n64.png)
