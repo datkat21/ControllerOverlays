@@ -29,6 +29,7 @@ There are a couple built-in types and styles to configure, here are some example
 - `gameCube`: GameCube controllers using Mayflash GC Controller Adapter set to "PC" mode
 - `xbox`: Generic XInput controller support
 - `wcc`: Wii Classic Controller USB adaptor support (specifically the JC-W01U)
+- `ps4`: PlayStation 4 controller
 
 ### Style list (controller styles)
 
@@ -38,6 +39,7 @@ Styles should follow a three-character identifier for consistency.
 - `gcn`: GameCube (made for `gameCube` controller type)
 - `wcc`: Wii Classic Controller (made for `wcc` controller type)
 - `nsp`: Nintendo Switch Pro Controller (Works best with most controller types)
+- `ps4`: PS4 Controller (made for `ps4` controller type)
 
 Most controller styles should be interchangeable, albeit with a few minor differences between each different type.
 
