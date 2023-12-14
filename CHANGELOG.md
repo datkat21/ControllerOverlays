@@ -18,26 +18,37 @@
 - `gcn`:
   - `black`   
   <img src="./styles/gcn/gamecube_black.svg" width="240">
+
   - `indigo`   
   <img src="./styles/gcn/gamecube_indigo.svg" width="240">
+
   - `silver`   
   <img src="./styles/gcn/gamecube_silver.svg" width="240">
+  
   - `orange`   
   <img src="./styles/gcn/gamecube_orange.svg" width="240">
+
   - `aqua`   
   <img src="./styles/gcn/gamecube_aqua.svg" width="240">
+
 - `n64`:
   - `gray`   
   <img src="./styles/n64/n64_gray.svg" width="240">
+
   - `black`   
   <img src="./styles/n64/n64_black.svg" width="240">
+
 - `nsp`:
   - `gray`   
   <img src="./styles/nsp/pro_controller_gray.svg" width="240">
+
 - `wcc`:
   - `white`   
   <img src="./styles/wcc/wcc_white.svg" width="240">
+
   - `gray`   
   <img src="./styles/wcc/wcc_gray.svg" width="240">
+
   - `black`   
   <img src="./styles/wcc/wcc_black.svg" width="240">
+  
