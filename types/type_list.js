@@ -1,1 +1,1 @@
-export default ["gameCube", "xbox", "wiiClassicController"];
+export default ["gameCube", "xbox", "ps4", "wiiClassicController"];

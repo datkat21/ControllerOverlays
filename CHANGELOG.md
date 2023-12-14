@@ -51,4 +51,15 @@
 
   - `black`   
   <img src="./styles/wcc/wcc_black.svg" width="240">
-  
+
+## v1.0.3
+
+Added ps4 controller layout and style, and dark pro controller skin.
+
+- `ps4`:
+  - `gray`   
+  <img src="./styles/ps4/ps4_gray.svg" width="240">
+
+- `nsp`:
+  - `dark`   
+  <img src="./styles/nsp/pro_controller_dark.svg" width="240">
