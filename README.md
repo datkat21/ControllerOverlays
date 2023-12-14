@@ -13,11 +13,6 @@ I'm going to admit that this thing is a bit of a mess, but here's what you shoul
 
 There's probably a much better way of importing SVGs than placing them inside of divs like that, but I was trying to take the easy route to make this quickly. It's pretty modular so you can add your own buttons and overlays if you know some web development skills.
 
-## Compatibility
-
-- Works on Chrome, and as such OBS' browser source.
-- Doesn't work on Firefox (my main browser) due to the gamepad library being used not accepting the specific gamepad implementation
-
 ## Library
 
 This now uses [gamepad.js](https://github.com/Tom32i/gamepad.js) instead of [Controller.js](https://github.com/samiare/Controller.js) and [gamecontrol.js](https://github.com/alvaromontoro/gamecontroller.js) as I needed exact gamepad inputs which I couldn't figure out with the other libraries.
