@@ -61,9 +61,12 @@ This allows extra configuration (e.g. color), and is dependent on the style that
   - `black`   
 - `nsp`:
   - `gray`   
+  - `dark`
 - `wcc`:
   - `white`   
   - `gray`   
   - `black`   
+- `ps4`
+  - `gray`
 
 You can find skin preview images in [the changelog](CHANGELOG.md#new-skins-in-v102).
