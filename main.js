@@ -356,7 +356,7 @@ window.addEventListener("load", async () => {
         return popupModal("Failed to load controller SVG.");
       }
 
-      Html.qs(".svg-placeholder").html(svg);
+      Html.qs(".svg-placeholder").append(new Html('div').class('svg-wrapper').html(svg));
 
       const svgHtml = document.querySelector("svg");
 
