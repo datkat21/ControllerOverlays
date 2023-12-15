@@ -63,3 +63,11 @@ Added ps4 controller layout and style, and dark pro controller skin.
 - `nsp`:
   - `dark`   
   <img src="./styles/nsp/pro_controller_dark.svg" width="240">
+
+## v1.0.4
+
+Added xbox controller style.
+
+- `xbox`:
+  - `xbox_one_black`
+  <img src="./styles/xbox/xbox_one_black.svg" width="240">
