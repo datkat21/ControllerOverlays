@@ -4,9 +4,7 @@ This is a basic HTML app to display a controller overlay SVG image and control i
 
 ## Setup
 
-I'm going to admit that this thing is a bit of a mess, but here's what you should know:
-
-Open the [website](https://ctrl.nxw.pw/) in your browser to perform the intial setup. Once complete, you can test the controller there and paste the link into an OBS browser source for example.
+Open the [website](https://ctrl.nxw.pw/) in your browser to perform the initial setup. Once complete, you can test the controller there and paste the link into an OBS browser source for example.
 
 ## Improving
 
