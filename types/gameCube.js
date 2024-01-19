@@ -82,15 +82,4 @@ export default function controllerConfig(mapping, axesMapping) {
     type: "trigger",
     handler: triggerAxeHandlerMaker("Button_R"),
   });
-
-  function reset() {
-    window.svg
-      .querySelectorAll("#Dpad_Down,#Dpad_Up,#Dpad_Left,#Dpad_Right")
-      .forEach((e) => {
-        e.classList.remove("pressed");
-      });
-  }
-  function press(id) {
-    window.svg.querySelector(`#${id}`).classList.add("pressed");
-  }
 }
