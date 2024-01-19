@@ -4,7 +4,7 @@ export default function controllerConfig(mapping, axesMapping) {
   mapping.set(2, "Button_B");
   mapping.set(0, "Button_X");
   mapping.set(3, "Button_Y");
-  mapping.set(7, ["Button_Z","Button_ZR"]); // for "xbox"-like compatibility
+  mapping.set(7, ["Button_Z", "Button_ZR"]); // for "xbox"-like compatibility
   mapping.set(9, "Button_Start");
 
   // D-pad
@@ -12,7 +12,7 @@ export default function controllerConfig(mapping, axesMapping) {
   mapping.set(13, "Dpad_Right");
   mapping.set(14, "Dpad_Down");
   mapping.set(15, "Dpad_Left");
-  
+
   /*
   Axes : GCN
 
@@ -57,15 +57,40 @@ export default function controllerConfig(mapping, axesMapping) {
     deadZone: [-0.13, 0.13],
     multipliers: [1.54, 1.14],
   });
+
+  function triggerAxeHandlerMaker(id) {
+    return function handler(axe) {
+      window.svg.querySelector(`#${id}`).style.transform = `translateY(${
+        axe.value * 2
+      }%)`;
+      const brightness = 1 - ((axe.value + 1) / 2) * 0.5;
+      const contrast = 1 + ((axe.value + 1) / 2) * 0.23;
+      window.svg.querySelector(
+        `#${id}`
+      ).style.filter = `brightness(${brightness}) contrast(${contrast})`;
+    };
+  }
+
   // Triggers
   axesMapping.set(3, {
     id: "Button_L",
     type: "trigger",
-    // trigger: 0.5
+    handler: triggerAxeHandlerMaker("Button_L"),
   });
   axesMapping.set(4, {
     id: "Button_R",
     type: "trigger",
-    // trigger: 0.5
+    handler: triggerAxeHandlerMaker("Button_R"),
   });
+
+  function reset() {
+    window.svg
+      .querySelectorAll("#Dpad_Down,#Dpad_Up,#Dpad_Left,#Dpad_Right")
+      .forEach((e) => {
+        e.classList.remove("pressed");
+      });
+  }
+  function press(id) {
+    window.svg.querySelector(`#${id}`).classList.add("pressed");
+  }
 }

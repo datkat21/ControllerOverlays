@@ -1,5 +1,6 @@
 <svg width="3828" height="2689" viewBox="0 0 3828 2689" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="gamecube_black">
+<g id="Button_L">
 <g id="Shape_13_copy_1_">
 <g id="Shape_13_copy">
 <g id="Group">
@@ -7,7 +8,6 @@
 </g>
 </g>
 </g>
-<g id="Button_L">
 <g id="Shape_13_1_">
 <g id="Shape_13">
 <g id="Group_2">
@@ -19,6 +19,7 @@
 <path id="L_2" d="M629.855 218.561V115.303H648.56V202.88H694.038V218.561H629.855Z" fill="black"/>
 </g>
 </g>
+<g id="Button_R">
 <g id="Shape_13_copy_2_1_">
 <g id="Shape_13_copy_2">
 <g id="Group_3">
@@ -26,7 +27,6 @@
 </g>
 </g>
 </g>
-<g id="Button_R">
 <g id="Shape_13_copy_3_1_">
 <g id="Shape_13_copy_3">
 <g id="Group_4">

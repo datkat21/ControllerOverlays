@@ -1,6 +1,6 @@
 import Html from "https://unpkg.com/@datkat21/html";
 
-const version_info = `v1.0.4`;
+const version_info = `v1.0.5`;
 
 window.addEventListener("load", async () => {
   function ready(svg) {

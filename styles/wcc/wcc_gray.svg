@@ -1,5 +1,5 @@
 <svg width="2467" height="1249" viewBox="0 0 2467 1249" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="wcc_gray" clip-path="url(#clip0_2813_2)">
+<g id="wcc_gray">
 <path id="Button_ZR" d="M1695 50.3115C1695 22.5252 1717.53 0 1745.31 0H2053.75C2163.79 0 2253 89.2091 2253 199.254C2253 210.159 2244.16 219 2233.25 219H1794C1739.32 219 1695 174.676 1695 120V50.3115Z" fill="white"/>
 <path id="Button_ZL" d="M214 199.254C214 89.2091 303.209 0 413.254 0H721.689C749.475 0 772 22.5252 772 50.3115V120C772 174.676 727.676 219 673 219H233.746C222.841 219 214 210.159 214 199.254Z" fill="white"/>
 <rect id="Button_L" x="974" width="172" height="219" rx="86" fill="#D9D9D9"/>
@@ -40,9 +40,4 @@
 <path id="Vector 16" opacity="0.44" d="M466.5 311L466.5 408" stroke="black" stroke-width="17"/>
 <path id="Vector 17" opacity="0.44" d="M466.5 573L466.5 670" stroke="black" stroke-width="17"/>
 </g>
-<defs>
-<clipPath id="clip0_2813_2">
-<rect width="2467" height="1249" fill="white"/>
-</clipPath>
-</defs>
 </svg>
