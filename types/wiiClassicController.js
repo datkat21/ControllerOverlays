@@ -4,10 +4,10 @@ export default function controllerConfig(mapping, axesMapping) {
   mapping.set(1, "Button_Y");
   mapping.set(2, "Button_A");
   mapping.set(3, "Button_B");
-  mapping.set(4, ["Button_ZL", "Button_Z"]);
-  mapping.set(5, ["Button_ZR", "Button_Z"]);
-  mapping.set(6, "Button_L");
-  mapping.set(7, "Button_R");
+  mapping.set(4, ["Button_L", "Button_Z"]);
+  mapping.set(5, ["Button_R", "Button_Z"]);
+  mapping.set(6, "Button_ZL");
+  mapping.set(7, "Button_ZR");
   mapping.set(8, "Button_Select");
   mapping.set(9, "Button_Start");
 
